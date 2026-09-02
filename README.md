@@ -1,5 +1,7 @@
 ﻿# Utility.Standard
 
+**Source last updated:** 2021-06-14
+
 A .NET Standard 2.0 / .NET 5 compatible utility library providing extension methods for serialization, type conversion, reflection, and general-purpose .NET development.
 
 **Initiated:** 2019-04-04 · **Target Frameworks:** .NET Standard 2.0, .NET 5
