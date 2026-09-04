@@ -32,3 +32,9 @@ The .NET Standard targeting build of the Utility extensions library. Consumable 
 | `Utility` | Core source - same API, targets .NET Core 2.0-3.1 |
 | `Utilities` | Full-featured library with WinForms controls, DB helpers, serial comms |
 | `Utilities.Standard` | Cross-platform build of Utilities for .NET Core |
+
+## Requirements
+
+- Visual Studio 2019 or later (ToolsVersion Current)
+- .NET Standard (stub csproj; no TargetFramework set)
+
