@@ -32,8 +32,28 @@ The .NET Standard targeting build of the Utility extensions library. Consumable 
 | `Utilities` | Full-featured library with WinForms controls, DB helpers, serial comms |
 | `Utilities.Standard` | Cross-platform build of Utilities for .NET Core |
 
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `Utility.Standard` (`Utility.Standard.csproj`) | C# | Project stub (ToolsVersion Current, empty PropertyGroup) | Placeholder for the .NET Standard build; no source files are in this tree |
+
+The working copy holds only the project stub plus `Utilities.Core.csproj.user` / `.vspscc` leftovers. The extension methods described above live in the sibling [Utility](https://github.com/VaderConsulting/Utility) repo.
+
+## How to open
+
+Open `Utility.Standard.csproj` in Visual Studio 2019 or later. To build the library, use the sibling `Utility` project (`Utility.Core.csproj`, netstandard2.0).
+
 ## Requirements
 
 - Visual Studio 2019 or later (ToolsVersion Current)
-- .NET Standard (stub csproj; no TargetFramework set)
+- .NET Standard 2.0 / .NET 5 SDK
+
+## Attribution and provenance
+
+Working copy from my Development folder `Utility.Standard`.
+
+## License
+
+MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
 
