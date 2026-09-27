@@ -51,6 +51,8 @@ Open `Utility.Standard.csproj` in Visual Studio 2019 or later. To build the libr
 
 ## Attribution and provenance
 
+Working copy from my Historical Dev folder.
+
 Working copy from my Development folder `Utility.Standard`.
 
 ## License
